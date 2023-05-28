@@ -26,7 +26,7 @@ indiv4
 
 ### to run:
 
-simply call python PooledPSMC.py (or python PooledPSMC.py -h to see the help)
+simply call `python PooledPSMC.py` (or `python PooledPSMC.py -h` to see the help)
 
 Make sure you have 
 ```
