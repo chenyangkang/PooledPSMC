@@ -1,18 +1,12 @@
-#! /usr/env/bin python
+#!/usr/env/bin python
 #####
 import argparse
-import os
-import subprocess
-import time
-from multiprocessing import Process, current_process, Lock, Pool
-import sys
-import pandas as pd
-import matplotlib.pyplot as plt
-
 
 ######
 parser = argparse.ArgumentParser(description='PooledPSMC -- Auto-PSMC with bamlist as input and psmc results as output. This method pools all individuals and consider them as a same individual.')
 parser.add_argument('--work_dir',help='working directory')
+parser.add_argument('--name_list',help='a file that have all the project names (you can use individual names as project names). one each line')
+parser.add_argument('--bam_list_file',help='a file that have all the bam path to individuals. one each line')
 parser.add_argument('--ref_gen',help='reference genome path')
 parser.add_argument('--d',default=6, help='only sites with depth over this are used')
 parser.add_argument('--q',default=20, help='sequence quality; only sequence with quality over this is used')
@@ -28,15 +22,24 @@ parser.add_argument('--g', help='generation time (year); for example: 10')
 
 
 args = parser.parse_args()
+#######
+import os
+import subprocess
+import time
+from multiprocessing import Process, current_process, Lock, Pool
+import sys
+import pandas as pd
+import matplotlib.pyplot as plt
+
 
 ########################################################
 #### change dir
 os.chdir(args.work_dir)
 
-with open('../bam_list.txt','r') as f:
+with open(f'../{args.bam_list_file}','r') as f:
     bam_list = [i.strip() for i in f.readlines() if not i.strip()=='']
 
-with open('../project_name_list.txt','r') as f:
+with open(f'../{args.name_list}','r') as f:
     project_name_list = [i.strip() for i in f.readlines() if not i.strip()=='']
 
     
