@@ -1,0 +1,13 @@
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/A-01-1_NDSFP00544/SamChrSort/A-01-1_NDSFP00544.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/A-02-3-H/SamChrSort/A-02-3-H.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/A-04-3-H/SamChrSort/A-04-3-H.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/B-07-2-H/SamChrSort/B-07-2-H.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/B-09-H/SamChrSort/B-09-H.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/B-10-1/SamChrSort/B-10-1.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/B-11-1-Host/SamChrSort/B-11-1-Host.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/C-06-3-Host/SamChrSort/C-06-3-Host.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/C-07-3-H/SamChrSort/C-07-3-H.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/C-08-3-H/SamChrSort/C-08-3-H.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/C-14-3-H/SamChrSort/C-14-3-H.bam.merged
+/bak03/panshk/store1/panshk/Project/02.houxian/02.BWA/C-19-3-H/SamChrSort/C-19-3-H.bam.merged
+
